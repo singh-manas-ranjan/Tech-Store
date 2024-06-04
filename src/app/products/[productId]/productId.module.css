@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 60px;
+    padding: 2rem;
+}
+
+.innerContainer{
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.reviewsLink{
+    text-decoration: none;
+}
+
+.reviewItems{
+    list-style: none;
+}
+
+.errorContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    height: 100vh;
+}
